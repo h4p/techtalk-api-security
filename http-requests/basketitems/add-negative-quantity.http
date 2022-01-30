@@ -1,0 +1,23 @@
+PUT /api/BasketItems/9 HTTP/1.1
+Host: localhost:3000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:95.0) Gecko/20100101 Firefox/95.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Authorization: Bearer {{bearer}}
+Content-Type: application/json
+Content-Length: 44
+Origin: http://localhost:3000
+Connection: keep-alive
+Referer: http://localhost:3000/
+Cookie: _ga=GA1.1.1514541091.1609947200; language=de_DE; welcomebanner_status=dismiss; continueCode=75Kk6BQravpxn1NElJZX0Xrh5TY7H2qCLYSOWibedgV4jWRb8Lqm3Y2eyoOM; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjgsInVzZXJuYW1lIjoiVG9iaSIsImVtYWlsIjoiZXJlckBvbmdvaW5nbWVkaWEuZGUiLCJwYXNzd29yZCI6IjE2ZDdhNGZjYTc0NDJkZGEzYWQ5M2M5YTcyNjU5N2U0Iiwicm9sZSI6ImN1c3RvbWVyIiwiZGVsdXhlVG9rZW4iOiIiLCJsYXN0TG9naW5JcCI6InVuZGVmaW5lZCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIyLTAxLTI2IDEyOjIwOjQ2LjA0MSArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIyLTAxLTI3IDA5OjU3OjE2LjkxMSArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE2NDMyNzk1NTcsImV4cCI6MTY0MzI5NzU1N30.fq8WqWexMpGxKjDt4KktIZjwEwzRLzeJ3PITQ3CN9eoWBhLuzRF7oFeSvJPTzcR1rJCcRW3P6icIFkm__s14Cf_5q94OJH84N5VYngilR_NQnr7OeMmFEeFtjTNN4a2ClVP87Hg5yEnyva395Fm-Q125YBpmTTmbSoJLwZCVvoY
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+
+{
+    "id": 9,
+    "quantity": -23,
+    "BasketId": 7,
+    "ProductId": 1
+}
