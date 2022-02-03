@@ -19,6 +19,6 @@ Sec-Fetch-Site: same-origin
     "UserId": 28,
     "captchaId": 5,
     "captcha": "35",
-    "comment": "Lasts all-time. <iframe src=\"javascript:alert(`xss`)\">",
+    "comment": "Totaler Saftladen zum Quadrat",
     "rating": 0
 }

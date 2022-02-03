@@ -16,7 +16,7 @@ Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-origin
 
 {
-    "ProductId": 24,
-    "BasketId": "6",
-    "quantity": 1
+    "ProductId":1,
+    "BasketId":"7",
+    "quantity":1
 }
