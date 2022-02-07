@@ -16,9 +16,9 @@ Sec-Fetch-Mode: cors
 Sec-Fetch-Site: same-origin
 
 {
-    "UserId": 28,
-    "captchaId": 5,
-    "captcha": "35",
+    "UserId": 22,
+    "captchaId": 6,
+    "captcha": "7",
     "comment": "Totaler Saftladen zum Quadrat",
     "rating": 0
 }

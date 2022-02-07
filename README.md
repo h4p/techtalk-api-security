@@ -28,7 +28,8 @@ Attacken die ich im TechTalk zeigen möchte
 
 ## Input Validierung
 - Im Warenkorb eine negative Menge hinzufügen mit `basketitems/add-negative-quantity.http`
-- Füge jemand anderem ein Item im Warenkorb hinzu mit `basketitems/view-other-persons-basket.http`
+- Füge jemand anderem ein Item im Warenkorb hinzu mit `basketitems/add-to-another-persons-basket.http`
+  Benutzt HTTP Parameter Pollution (HPP)
 
 ## Ein 0 Sterne Feedback abgeben
 - Umgehe die Inputvalidierung im Frontend und löse das Captcha mit `feedbacks/post-feedback.http`
